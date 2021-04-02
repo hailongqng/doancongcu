@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = require("mongoose").Schema;
-
+//aaaaaaaaaaaaaa
 const baiDangSchema = new Schema({
   id_taiKhoan: {
     type: mongoose.Types.ObjectId,
