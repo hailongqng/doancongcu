@@ -4,6 +4,7 @@ const CanHo = require("../models/canHo");
 const ChiPhi = require("../models/chiPhi");
 const PhieuThu = require("../models/phieuThuTien");
 const BaiDang = require("../models/baiDang");
+// xoa bai dang boi xuan huynh
 const xoaCuDan = async (id, res) => {
   try {
     const xoa = await CuDan.findByIdAndDelete({ _id: id }, (err, data) => {
