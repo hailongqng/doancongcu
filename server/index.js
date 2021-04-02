@@ -3,7 +3,7 @@ const { PORT } = require('./config');
 const expressLayouts = require("express-ejs-layouts");
 const connectDB = require("./config/connectDB");
 const cors = require("cors");
-
+// sua index
 
 const app = express();
 const server = require('http').createServer(app);
