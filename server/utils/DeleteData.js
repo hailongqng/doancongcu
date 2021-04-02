@@ -15,7 +15,7 @@ const xoaCuDan = async (id, res) => {
     return res.status(400).json("error");
   }
 };
-
+//Xoa tai khoan cu dan
 const xoaTaiKhoanCuDan = async (id, res) => {
   try {
     const taiKhoan = await Account.findOne({ _id: id });
